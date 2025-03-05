@@ -1,0 +1,53 @@
+.profile-container {
+  font-family: 'Roboto', sans-serif;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.profile-nav a {
+  margin-right: 15px;
+  color: #000;
+}
+
+.profile-nav a.active {
+  font-weight: bold;
+}
+
+.profile-content {
+  padding: 20px;
+}
+
+.profile-form {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-column {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile-form input, .profile-form select {
+  padding: 10px;
+  border: 1px solid #d3d3d3;
+  background-color: #fffacd;
+}
+
+.btn-primary {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
