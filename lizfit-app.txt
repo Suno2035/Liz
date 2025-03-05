@@ -1,0 +1,22 @@
+lizfit-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── Analytics.jsx
+│   │   ├── Analytics.css
+│   │   ├── Calendar.jsx
+│   │   ├── Calendar.css
+│   │   ├── Dashboard.jsx
+│   │   ├── Dashboard.css
+│   │   ├── LoginScreen.jsx
+│   │   ├── ModalTraining.jsx
+│   │   ├── ModalTraining.css
+│   │   ├── Profile.jsx
+│   │   └── Profile.css
+│   ├── styles/
+│   │   └── main.css
+│   ├── App.jsx
+│   └── index.js
+├── package.json
+└── README.md
